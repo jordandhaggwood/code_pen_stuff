@@ -1,0 +1,16 @@
+     main {
+            animation: fadeIn 2s;
+            position: relative;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                left: 100px;
+            }
+            100% {
+                opacity: 1;
+                left: 0px;
+            }
+        }
+  
